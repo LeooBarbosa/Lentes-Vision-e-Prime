@@ -31,7 +31,7 @@
             echo "<p class='resultado'>Valor 4 digitado: $grauD</p>";
             $tipoLente;
             $tipoLenteDois;
-            // Lente Prime
+            // Lentes
             if($grauA == null and $grauB == null){
                 $tipoLente = null;
                 echo "<p class='mensagem'>Nos falta informação para determinar a lente!</p>";
