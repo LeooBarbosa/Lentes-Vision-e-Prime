@@ -18,7 +18,7 @@
         </div>
     <div id="main">
         <section class="resultado-calculo">
-            <div class="main">
+            
         
         <?php
             $grauA = isset($_GET["grauA"])?$_GET["grauA"]:null;
@@ -46,7 +46,6 @@
                     }
                     echo "<p class='mensagem'>$tipoLente";
                 } else {
-                            // echo "$tipoLente";
                     echo "<p class='mensagem'>Valores não satisfazem nossos modelos</p>";
                 }
             } elseif($grauA <= 0 and $grauA >= -15 && $grauB <= 0 and $grauB >= -15) {
@@ -62,12 +61,14 @@
                 echo "<p class='mensagem'>Valores nao suportados</p>";
             }
                 ?>
-                </div>
                 <a href="index.html">Voltar</a>
+    </div>
         </section>
       
     </footer>
     </body>
     </div>
 </html>
+                
+
                 
