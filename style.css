@@ -91,7 +91,14 @@ body {
     font-size: 17px;
 }
 
-
+.rodape {
+    background-color: #000000;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #fff;
+    text-align: center;
+}
 
 p.resultado {
     color: rgb(0, 0, 0);
@@ -105,8 +112,16 @@ p.mensagem {
 }
 
 .resultado-calculo {
-    width: 700px;
     display: block;
     margin: 0 auto;
+    width: 100%;
+    padding: 15px;
+    background-color:#fafafac9;
+}
+
+.resultado {
+    display: block;
+    margin: 0 auto;
+    width: 750px;
     padding: 15px;
 }
