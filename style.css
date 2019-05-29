@@ -1,0 +1,112 @@
+body {
+    background-color: #585858;
+}
+#main {
+    display: block;
+    margin: 0 auto;
+    background-color: #fafafac9;
+    padding: 15px;
+}
+
+.formulario {
+    padding: 15px;
+}
+
+.formulario-titulo{
+    font-size: 19px;
+    text-align: center;
+}
+
+@media(min-width: 700px){
+    .formulario {
+        display: block;
+        margin: 0 auto;
+        width: 35%; 
+    }
+}
+
+@media(min-width: 1000px){
+    .formulario {
+        display: block;
+        margin: 0 auto;
+        width: 45%; 
+    }
+}
+
+.formulario__campos {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px;
+    
+}
+
+.formulario__label{
+    font-size: 17px;
+    color: #585858;
+}
+
+.botao {
+    border: 3px solid rgb(31, 28, 28);
+    border-radius: 300px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+
+
+.cabecalho-pag{
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.pag-titulo{
+    text-align: center;
+    text-transform: uppercase;
+    color: #c2bcbc;
+    font-size: 22px;
+}
+
+.informar-cliente {
+    text-align: center;
+    background-color: rgb(228, 226, 181);
+    margin: 0;
+    padding: 20px;
+}
+
+.informar-conteudo {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.informar-cliente p {
+    color: #6e6a6a;
+    font-size: 17px;
+}
+
+
+
+p.resultado {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+p.mensagem {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resultado-calculo {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Lentes - Análise</title>
+</head>
+<body>
+    <!--<div class="menu">
+        <header class="cabecalho">
+            <nav class="menu-principal">
+                    
+            </nav>
+        </header>
+    </div>-->
+    <div class="cabecalho-pag">
+        <h1 class="pag-titulo">Coleta de informações</h1>
+    </div>
+    <section>
+        <div class="informar-cliente">
+            <h3 class="informar-conteudo">Prezado cliente,</h3>
+            <p>entre com as informações solicitadas para que possamos lhe informar qual o modelo de lente ideal para você</p>
+        </div>
+        <div id="main">
+                <form method="GET" class="formulario" action="index.php">
+                    <h3 class="formulario-titulo">Qual a melhor lente para minha utilização?</h3>
+                    <div class="formulario__div">
+                        <label class="formulario__label" for="grauA">Grau esférico do olho esquerdo</label><br>
+                        <input class="formulario__campos" type="number" step="0.25"  name="grauA" max="0" min="-15" id="grauA" placeholder="Informe o grau ...">
+                    </div>
+                    <div class="formulario__div"> 
+                        <label class="formulario__label" for="grauB">Grau esférico do olho direito</label><br>
+                        <input class="formulario__campos" type="number" step="0.25" name="grauB" max="0" min="-15" id="grauB" placeholder="Informe o grau ...">
+                    </div>
+                    <div class="formulario__div"> 
+                        <label class="formulario__label" for="grauC">Grau cilíndrico do olho esquerdo</label><br>
+                        <input class="formulario__campos" type="number" step="0.25" name="grauC" max="0" min="-6" id="grauC" placeholder="Informe o grau ...">
+                    </div>
+                    <div class="formulario__div"> 
+                        <label class="formulario__label" for="grauD">Grau cilíndrico do olho direito</label><br>
+                        <input class="formulario__campos" type="number" step="0.25" name="grauD" max="0" min="-6" id="grauD" placeholder="Informe o grau ...">
+                    </div>
+                    
+                    <input type="submit" class="botao" value="Calcular">
+                </form>
+        </div>
+    </section>
+</body>
+</html>
