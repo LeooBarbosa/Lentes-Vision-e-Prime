@@ -18,8 +18,6 @@
         </div>
     <div id="main">
         <section class="resultado-calculo">
-            
-        
         <?php
             $grauA = isset($_GET["grauA"])?$_GET["grauA"]:null;
             echo "<p class='resultado'>Valor 1 digitado: $grauA</p>";
